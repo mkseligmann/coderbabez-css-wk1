@@ -31,12 +31,13 @@ This week we're learning about CSS, which provides the visual style and layout f
 ```css
 body {
 	background-color: #DBECFC;
+	color: #333;
 }
 ```
 There are three important parts of this rule: the selector (body), the property (background-color), and the value (#DBECFC).
 
 5. Selectors: Selectors tell us what elements on the page we want to apply our CSS rules to. There are three main types of selectors
-** Tags: selects every instance of that tag in your HTML
+⋅⋅* Tags: selects every instance of that tag in your HTML
 ```html
 	<p>I'm a paragraph!</p>
 ```
@@ -45,7 +46,7 @@ There are three important parts of this rule: the selector (body), the property 
 		color: blue; /* I make the paragraph text blue */
 	}
 ```
-** Classes: selects every element with that class attribute
+⋅⋅* Classes: selects every element with that class attribute
 ```html
 	<p class="subheaders">I'm a paragraph!</p>
 ```
@@ -54,7 +55,7 @@ There are three important parts of this rule: the selector (body), the property 
 		color: blue; /* I make only the text in the elements with the subheader class blue */
 	}
 ```
-** IDs: selects every element with that id attribute
+⋅⋅* IDs: selects every element with that id attribute
 ```html
 	<p id="byline">I'm a paragraph!</p>
 ```
@@ -65,13 +66,26 @@ There are three important parts of this rule: the selector (body), the property 
 ```
 6. Tag selectors are great for general, base styles - like changing all the font to arial, or the back ground of the page to blue. IDs should only be applied to important unique objects like your header or your nav. IDs should only be used on one element, and not repeated. Classes are great when you have a group of elements that you want to be styled the same way - like turning some of the paragraphs blue, but not all of them. 
 
-7. CSS Property / Value pairs describe how you want to style the element that you have selected. You can put several properties within one selector, as long as they're all inside the curly brackets {}. Try the following properties: font-family, background-color, color, border
+7. CSS Property / Value pairs describe how you want to style the element that you have selected. You can put several properties within one selector, as long as they're all inside the curly brackets {}. Try the following properties: `font-family`, `background-color`, `color`, `border`
 
 
 ### Practice
 1. Open up your recipe repo from last week's homework (or use the starter code provided in this project). 
-2. See if you can use your new CSS skills to make your recipe page look like [this example page]()
+2. See if you can use your new CSS skills to make your recipe page look like [this example page](./img/best_cookies_mock.jpg)
 3. Don't forget to commit your code, and publish your page to gh-pages when you're done!
+
+##### HINTS: 
+
+Fonts used: 
+* Arial, Helvetica, sans-serif
+* "Trebuchet MS", Helvetica, sans-serif
+
+Colors used: 
+* #F9F264
+* #FFFFFF
+* #333333
+
+
 
 ### Final Thoughts
 Today we learned how we can use CSS to add style to our pages.
