@@ -1,0 +1,42 @@
+body {
+	background-color: #FFFFFF;
+	color: black;
+  font: arial
+}
+h1{background-color: #F9F264;
+  padding: 50px;
+  padding-left: 10px;
+  color: #333333;
+  font-family: "Trebuchet MS";
+}
+img{
+  border: solid 4px #F9F264;
+width: 300px}
+
+header {background-color: white;
+}
+.subheader{margin-bottom: 50px;
+color: black}
+
+h2{background-color: white;
+color: black;
+border-bottom: solid;
+width: 50%;
+font-family: Helvetica;}
+
+#ingredients{
+  background-color: white;
+  color: black
+}
+
+#instructions{
+  background-color: white;
+  color: black}
+
+  #Nutrition{
+    background-color: white;
+    color: black}
+
+h2{
+  text-transform: uppercase;
+font-size-adjust: smaller}
