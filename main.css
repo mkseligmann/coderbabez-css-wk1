@@ -24,10 +24,17 @@ border-bottom: solid;
 width: 50%;
 font-family: Helvetica;}
 
+ul{list-style-type: none;
+  padding: 10px;
+}
+li{padding: 10px;
+margin-right: 50%}
+
 #ingredients{
   background-color: white;
   color: black
 }
+
 
 #instructions{
   background-color: white;
@@ -35,7 +42,8 @@ font-family: Helvetica;}
 
   #Nutrition{
     background-color: white;
-    color: black}
+    color: black;
+  font-family: arial}
 
 h2{
   text-transform: uppercase;
