@@ -30,9 +30,10 @@ ul{list-style-type: none;
 li{padding: 10px;
 margin-right: 50%}
 
-#ingredients{
+#ingredients li{
   background-color: white;
-  color: black
+  color: black;
+  border-bottom: 1px dotted black
 }
 
 
@@ -43,7 +44,7 @@ margin-right: 50%}
   #Nutrition{
     background-color: white;
     color: black;
-  font-family: arial}
+  font-family: }
 
 h2{
   text-transform: uppercase;
